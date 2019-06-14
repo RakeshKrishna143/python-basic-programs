@@ -5,5 +5,8 @@ def fibo(num):
         return 1
     else:
         return fibo(num-1)+fibo(num-2)
-print(fibo(9))
         
+def fiboseries(n):
+    for i in range(1,n+1):
+        print(fibo(i))
+fiboseries(5)
